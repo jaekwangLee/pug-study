@@ -1,0 +1,57 @@
+.statics {
+    padding-top: 190px;
+    padding-bottom: 140px;
+    background-image: url(https://carmore.kr/home/images/bg-carmore-data.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.statics-inner-container {
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.statics-section-title {
+    h1 {
+        color: #ffffff;
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: bold;
+    }
+
+    p {
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+
+.statics-section-values {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+    .static-option {
+        width: 50%;
+        margin-bottom: 54px;
+    }
+
+    .statics-label {
+        font-size: 32px;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
+    .statics-value {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400;
+    }
+}

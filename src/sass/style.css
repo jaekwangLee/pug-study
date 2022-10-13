@@ -1,0 +1,62 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, dl {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a:active {
+  color: initial;
+  text-decoration: none;
+}
+
+a:hover {
+  color: initial;
+}
+
+a:link {
+  color: initial;
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  color: initial;
+}
+
+a:-moz-any-link {
+  color: initial;
+}
+
+a:any-link {
+  color: initial;
+}
+
+.flex-vertical-center-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-content-container {
+  padding-top: 80px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text-14 {
+  font-size: 0.875rem;
+}/*# sourceMappingURL=style.css.map */

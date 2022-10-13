@@ -1,0 +1,23 @@
+extends ./layout/page.layout.pug
+
+block append head 
+    link(rel="stylesheet", href="/src/sass/home.css")
+
+block header
+    include ./component/header.pug
+    
+block content
+    section(class="statics")
+        div(class="statics-inner-container")
+            div(class="statics-section-title")
+                h1 압도적 1등, 카모아
+                p 따라올 수 없는 압도적 1등
+                p 이제부터 렌트카 예약은 카모아입니다.
+                p (전국 차량 공유 플랫폼 중 차량 보유수 최다)
+
+            - const statics = [{ label: '누적예약', value: '608,246' },{ label: '사용자 리뷰', value: '81,192' },{ label: '예약 가능 차량', value: '52,927' },{ label: '전국 렌트카 지점', value: '1,495' }];
+            div(class="statics-section-values")
+                each val in statics
+                    div(class="static-option")
+                        h3(class="statics-label")= val.value
+                        p(class="statics-value")= val.label
