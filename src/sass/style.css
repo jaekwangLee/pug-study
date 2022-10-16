@@ -59,4 +59,8 @@ a:any-link {
 
 .text-14 {
   font-size: 0.875rem;
+}
+
+.row > * {
+  width: auto !important;
 }/*# sourceMappingURL=style.css.map */
